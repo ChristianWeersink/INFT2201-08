@@ -25,12 +25,12 @@ var readInput = () => {
 
   if (option !== "5") {
     console.log("Enter the first number");
-    let a:number = Number((">> "));
+    let a:number = Number(prompt(">> "));
 
     console.log("Enter the second number");
     let b:number = Number(prompt(">> "));
 
-    let c:Number;
+    let c:number;
     switch(option){
       case "1": {
         c = add(a, b);

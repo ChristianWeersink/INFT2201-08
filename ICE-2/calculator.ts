@@ -2,7 +2,7 @@
 // March 07, 2024
 // Christian Weersink 100791903
 // Turned js into ts compatible code
-export const add = (a :number, b: number) => {
+export const add = (a :number, b:number):number => {
   return a + b;
 }
 
