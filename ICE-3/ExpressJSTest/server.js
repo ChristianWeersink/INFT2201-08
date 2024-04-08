@@ -8,13 +8,14 @@ connectDb();
 
 
 
+
 const port = process.env.PORT; // get the constant from the .env file
 
 app.use(express.json());
 
-
 app.use("/api/students", require("./routes/studentRoute")); // middleware 
 
+app.use("/api/users", require("./routes/userRoutes"));
 
 app.use(errorHandler);
 

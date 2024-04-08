@@ -43,8 +43,6 @@ const updateStudent = asyncHandler(async (req, res) => {
     res.status(200.).json(updatedStudent);
 });
 
-
-
 const deleteStudent = asyncHandler(async (req, res) => {
     const student = await Student.findById(req.params.id);
     if (!student) {
