@@ -46,10 +46,6 @@ const registerUser = asyncHandler(async(req, res) =>{
 
 
 
-//@desc Login a user
-//@route POST /api/users/login
-//@access public
-
 
 //@desc Login user
 //@route POST /api/users/login
@@ -83,7 +79,6 @@ const loginUser = asyncHandler(async(req, res) =>{
 // const loginUser = asyncHandler(async(req, res) =>{
 //     res.json({message: "Login the user"});
 // }) ;
-
 
 
 //@desc Show current user
